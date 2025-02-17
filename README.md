@@ -5,7 +5,7 @@ This project is inspired by the author's interest in the Hawaiian language. This
 
 ## Files
 
-### `HawaiianWords.java`
+### `HawaiianWords.java` in `src`
 This class provides the core functionality for generating English-based pronunciations of Hawaiian words. It:
 - Defines the valid Hawaiian consonants and vowels.
 - Maps consonants and vowels to their English equivalents.
@@ -13,7 +13,7 @@ This class provides the core functionality for generating English-based pronunci
 - Handles pronunciation changes based on vowel placement.
 - Constructs the English pronunciation of words, inserting hyphens between syllables.
 
-### `MappingResult.java`
+### `MappingResult.java` in `src`
 This class stores the result of character mappings from Hawaiian words to their English pronunciation. It:
 - Stores the mapped pronunciation value.
 - Tracks the number of characters consumed during mapping.
